@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background: rgb(72, 72, 72);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header{
+    z-index: 10;
+    margin-top: 20%;
+    position: absolute;
+
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(236, 236, 236);
+    font-size: 7vw;
+}
+
+#top-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#banner-image{
+    position: relative;
+    filter: blur(2px);
+    max-width: 100%;
+}
+
+.black-bar{
+    background: linear-gradient(180deg, rgba(121, 121, 121, 0.7) 0%, rgba(30, 30, 30, 0.8) 35%, rgba(10, 10, 10, 1) 80%);
+    width: 100%;
+    aspect-ratio: 1/0.15;
+    margin-bottom: 1%;
+}
+
+.grid-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.grid-item{
+    aspect-ratio: 1/1;
+    width: 100%;
+    color: rgb(236, 236, 236);
+}
+
+#left-box{
+    background-color: green;
+    
+}
+
+#right-box{
+    background: yellow;
+    
+}
