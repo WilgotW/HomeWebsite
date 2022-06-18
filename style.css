@@ -43,15 +43,22 @@ body, html{
 }
 
 .black-bar{
-    background: linear-gradient(180deg, rgba(121, 121, 121, 0.7) 0%, rgba(30, 30, 30, 0.8) 35%, rgba(10, 10, 10, 1) 80%);
+    background: linear-gradient(180deg, rgba(121, 121, 121, 0.7) 0%, rgba(30, 30, 30, 0.8) 20%, rgba(10, 10, 10, 1) 50%);
+    
     width: 100%;
     aspect-ratio: 1/0.15;
     margin-bottom: 1%;
 }
 
+#line-absolute{
+    position: absolute;
+    margin-top: 20%;
+    z-index: 5;
+}
+
 .grid-flexible{
     display: flex;
-    
+    position: absolute;
 }
 
 .flex-item{
@@ -60,9 +67,29 @@ body, html{
     font-size: 2vw;
     border-radius: 1em;
     padding: 1em;
+    z-index: 10;
     
 }
 
 #second-paralax-image{
+    margin-top: 20%;
+    position: absolute;
+
+    background-image: url("/images/greece\ android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-fakph-2000x1000.jpg");
+    height: 50vw;
+    max-height: 90%;
+    min-height: 40%;
     
+    width: 100%;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#test{
+    width: 100%;
+    margin-top: 10%;
+    aspect-ratio: 1/1;
 }
